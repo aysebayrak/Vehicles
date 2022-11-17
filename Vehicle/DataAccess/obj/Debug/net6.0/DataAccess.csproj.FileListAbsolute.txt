@@ -1,0 +1,17 @@
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\bin\Debug\net6.0\Entities.dll
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\bin\Debug\net6.0\Entities.pdb
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+C:\projeler_ab\Vehiclee\Vehicle\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

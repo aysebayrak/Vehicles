@@ -1,0 +1,14 @@
+C:\projeler_ab\Vehiclee\Vehicle\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\projeler_ab\Vehiclee\Vehicle\Entities\bin\Debug\net6.0\Entities.runtimeconfig.json
+C:\projeler_ab\Vehiclee\Vehicle\Entities\bin\Debug\net6.0\Entities.dll
+C:\projeler_ab\Vehiclee\Vehicle\Entities\bin\Debug\net6.0\Entities.pdb
+C:\projeler_ab\Vehiclee\Vehicle\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\projeler_ab\Vehiclee\Vehicle\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\projeler_ab\Vehiclee\Vehicle\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\projeler_ab\Vehiclee\Vehicle\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\projeler_ab\Vehiclee\Vehicle\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\projeler_ab\Vehiclee\Vehicle\Entities\obj\Debug\net6.0\Entities.dll
+C:\projeler_ab\Vehiclee\Vehicle\Entities\obj\Debug\net6.0\refint\Entities.dll
+C:\projeler_ab\Vehiclee\Vehicle\Entities\obj\Debug\net6.0\Entities.pdb
+C:\projeler_ab\Vehiclee\Vehicle\Entities\obj\Debug\net6.0\Entities.genruntimeconfig.cache
+C:\projeler_ab\Vehiclee\Vehicle\Entities\obj\Debug\net6.0\ref\Entities.dll
