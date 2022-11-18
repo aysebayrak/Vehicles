@@ -1,4 +1,5 @@
-﻿using Entities.Concrete;
+﻿using DataAccess.Concrete.EntityFramework.Mappings;
+using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,18 @@ namespace DataAccess.Concrete
         public DbSet<Car> Cars { get; set; }
         public DbSet<Boat> Boats { get; set; }
         public DbSet<Bus> Buses { get; set; }
+
+
+        //mapping
+        
+        protected override void OnModelCreating (ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new CarMap());
+            modelBuilder.ApplyConfiguration(new BusMap());
+            modelBuilder.ApplyConfiguration(new BoatMap());
+
+
+        }
 
     }
 
