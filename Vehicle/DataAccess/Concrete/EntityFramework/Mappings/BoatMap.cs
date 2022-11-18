@@ -16,9 +16,9 @@ namespace DataAccess.Concrete.EntityFramework.Mappings
             builder.ToTable("Boats");
             builder.HasKey(v => v.Id);
             builder.Property(v => v.Id).UseIdentityColumn();
-            builder.Property(v => v.CreatedDate).IsRequired().HasColumnName("datatime");
-            builder.Property(v => v.UpdatedDate).HasColumnName("datatime");
-            builder.Property(x => x.Color).IsRequired().HasColumnType("nvarchar(MAX)");
+            builder.Property(v => v.CreatedDate).IsRequired().HasColumnType("datetime");
+            builder.Property(v => v.UpdatedDate).HasColumnType("datetime");
+            builder.Property(v => v.Color).IsRequired().HasColumnType("nvarchar(MAX)");
 
         }
     }

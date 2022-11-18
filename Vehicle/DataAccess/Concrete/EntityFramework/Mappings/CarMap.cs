@@ -17,8 +17,8 @@ namespace DataAccess.Concrete.EntityFramework.Mappings
             builder.ToTable("Cars");
             builder.HasKey(v => v.Id);
             builder.Property(v => v.Id).UseIdentityColumn();
-            builder.Property(v => v.CreatedDate).IsRequired().HasColumnType("datatime");
-            builder.Property(v => v.UpdatedDate).HasColumnType("datatime");
+            builder.Property(v => v.CreatedDate).IsRequired().HasColumnType("datetime");
+            builder.Property(v => v.UpdatedDate).HasColumnType("datetime");
             builder.Property(v => v.Color).IsRequired().HasColumnType("nvarchar(MAX)");
             builder.Property(v => v.Whells).IsRequired();
             builder.Property(v => v.Headlights).IsRequired();
