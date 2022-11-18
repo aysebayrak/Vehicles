@@ -20,4 +20,5 @@ namespace DataAccess.Concrete
         public DbSet<Bus> Buses { get; set; }
 
     }
+
 }
