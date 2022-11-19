@@ -16,6 +16,8 @@ namespace Business.Abstract
         List<Car> GetAll();
         List<Car> GetCarsbyColor(string color);
 
+        bool OnOffHeadLights(int carId);
+
 
 
     }

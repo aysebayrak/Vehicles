@@ -15,7 +15,7 @@ namespace Business.Abstract
         List<Bus> GetAll();
         Bus GetId(int id);
         List<Bus> GetCarsByColor(string color);
-        bool OnOffHeadLights(int carId);
+        
 
 
     }

@@ -20,22 +20,22 @@ namespace Business.Concrete
 
         public void Add(Car car)
         {
-            throw new NotImplementedException();
+              _carDal.Add(car); 
         }
 
         public void Delete(Car car)
         {
-            throw new NotImplementedException();
+            _carDal.Delete(car);
         }
 
         public Car Get(int id)
         {
-            throw new NotImplementedException();
+            return _carDal.Get(c => c.Id == id);
         }
 
         public List<Car> GetAll()
         {
-            throw new NotImplementedException();
+            return _carDal.GetAll();
         }
 
         public List<Car> GetCarsbyColor(string color)
@@ -43,9 +43,14 @@ namespace Business.Concrete
             throw new NotImplementedException();
         }
 
-        public void Update(Car car)
+        public bool OnOffHeadLights(int carId)
         {
             throw new NotImplementedException();
+        }
+
+        public void Update(Car car)
+        {
+            _carDal.UpDate(car);
         }
     }
 }

@@ -20,22 +20,22 @@ namespace Business.Concrete
 
         public void Add(Boat boat)
         {
-            throw new NotImplementedException();
+           _boatDal.Add(boat);
         }
 
         public void Delete(Boat boat)
         {
-            throw new NotImplementedException();
+            _boatDal.Delete(boat);
         }
 
         public Boat Get(int id)
         {
-            throw new NotImplementedException();
+            return _boatDal.Get(b => b.Id == id);
         }
 
         public List<Boat> GetAll()
         {
-            throw new NotImplementedException();
+            return _boatDal.GetAll();
         }
 
         public List<Boat> GetCarsByColor(string color)
@@ -45,7 +45,7 @@ namespace Business.Concrete
 
         public void Update(Boat boat)
         {
-            throw new NotImplementedException();
+            _boatDal.UpDate(boat);
         }
     }
 }

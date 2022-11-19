@@ -22,17 +22,17 @@ namespace Business.Concrete
 
         public void Add(Bus bus)
         {
-            throw new NotImplementedException();
+            _busDal.Add(bus);
         }
 
         public void Delete(Bus bus)
         {
-            throw new NotImplementedException();
+            _busDal.Delete(bus);
         }
 
         public List<Bus> GetAll()
         {
-            throw new NotImplementedException();
+            return _busDal.GetAll();    
         }
 
         public List<Bus> GetCarsByColor(string color)
@@ -42,17 +42,14 @@ namespace Business.Concrete
 
         public Bus GetId(int id)
         {
-            throw new NotImplementedException();
+            return _busDal.Get(b => b.Id == id);
         }
 
-        public bool OnOffHeadLights(int carId)
-        {
-            throw new NotImplementedException();
-        }
+     
 
         public void Update(Bus bus)
         {
-            throw new NotImplementedException();
+            _busDal.UpDate(bus);
         }
     }
 }
