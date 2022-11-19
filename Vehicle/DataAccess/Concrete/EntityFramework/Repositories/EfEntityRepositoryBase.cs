@@ -15,27 +15,51 @@ namespace DataAccess.Concrete.EntityFramework.Repositories
     {
         public void Add(TEntity entity)
         {
-            throw new NotImplementedException();
+            using (TContext context = new TContext())
+            {
+                var eddedEntity = context.Entry(entity); //veri kaynağım ile ilişkilendirdim  referansı yakala 
+                eddedEntity.State = EntityState.Added; //o eklenecek bir nesne
+                context.SaveChanges(); //ve ekle 
+            }
         }
 
         public void Delete(TEntity entity)
         {
-            throw new NotImplementedException();
+            using (TContext context = new TContext())
+            {
+                var deletedEntity = context.Entry(entity);
+                deletedEntity.State = EntityState.Deleted;
+                context.SaveChanges();
+            }
         }
 
         public TEntity Get(Expression<Func<TEntity, bool>> filter)
         {
-            throw new NotImplementedException();
+            using (TContext context = new TContext())
+            {
+                return context.Set<TEntity>().SingleOrDefault(filter);
+            }
         }
 
-        public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filtet = null)
+        public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter = null)
         {
-            throw new NotImplementedException();
+            using (TContext context = new TContext())
+            {
+                return filter == null
+                    ? context.Set<TEntity>().ToList()
+                    : context.Set<TEntity>().Where(filter).ToList();
+            }
         }
 
         public void UpDate(TEntity entity)
         {
-            throw new NotImplementedException();
+            using (TContext context = new TContext())
+            {
+                var apdatedEntity = context.Entry(entity);
+                apdatedEntity.State = EntityState.Modified;
+                context.SaveChanges();
+
+            }
         }
     }
 }
