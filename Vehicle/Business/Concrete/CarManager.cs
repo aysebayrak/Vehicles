@@ -38,15 +38,16 @@ namespace Business.Concrete
             return _carDal.GetAll();
         }
 
-        public List<Car> GetCarsbyColor(string color)
+        public List<Car> GetColor(string color)
         {
-            throw new NotImplementedException();
+            var cars = _carDal.GetAll(c =>c.Color.Contains(color)).ToList();
+            return cars;
         }
 
-        public bool OnOffHeadLights(int carId)
-        {
-            throw new NotImplementedException();
-        }
+        //public bool OnOffHeadLights(int carId)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         public void Update(Car car)
         {

@@ -38,9 +38,10 @@ namespace Business.Concrete
             return _boatDal.GetAll();
         }
 
-        public List<Boat> GetCarsByColor(string color)
+        public List<Boat> GetColor(string color)
         {
-            throw new NotImplementedException();
+            var boats = _boatDal.GetAll(b => b.Color.Contains(color)).ToList();
+            return boats;
         }
 
         public void Update(Boat boat)

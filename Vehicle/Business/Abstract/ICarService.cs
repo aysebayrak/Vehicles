@@ -14,9 +14,9 @@ namespace Business.Abstract
         void Delete(Car car);
         Car Get(int id);
         List<Car> GetAll();
-        List<Car> GetCarsbyColor(string color);
+        List<Car> GetColor(string color);
 
-        bool OnOffHeadLights(int carId);
+       // bool OnOffHeadLights(int carId);
 
 
 

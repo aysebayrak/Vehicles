@@ -35,9 +35,10 @@ namespace Business.Concrete
             return _busDal.GetAll();    
         }
 
-        public List<Bus> GetCarsByColor(string color)
+        public List<Bus> GetColor(string color)
         {
-            throw new NotImplementedException();
+            var buses =  _busDal.GetAll(b => b.Color.Contains(color)).ToList();
+            return buses;   
         }
 
         public Bus GetId(int id)

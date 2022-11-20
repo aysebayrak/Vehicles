@@ -1,0 +1,17 @@
+C:\projeler_ab\Vehiclee\Vehicle\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\projeler_ab\Vehiclee\Vehicle\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\projeler_ab\Vehiclee\Vehicle\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\projeler_ab\Vehiclee\Vehicle\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\projeler_ab\Vehiclee\Vehicle\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\projeler_ab\Vehiclee\Vehicle\Business\bin\Debug\net6.0\Business.deps.json
+C:\projeler_ab\Vehiclee\Vehicle\Business\bin\Debug\net6.0\Business.dll
+C:\projeler_ab\Vehiclee\Vehicle\Business\bin\Debug\net6.0\Business.pdb
+C:\projeler_ab\Vehiclee\Vehicle\Business\bin\Debug\net6.0\DataAccess.dll
+C:\projeler_ab\Vehiclee\Vehicle\Business\bin\Debug\net6.0\Entities.dll
+C:\projeler_ab\Vehiclee\Vehicle\Business\bin\Debug\net6.0\DataAccess.pdb
+C:\projeler_ab\Vehiclee\Vehicle\Business\bin\Debug\net6.0\Entities.pdb
+C:\projeler_ab\Vehiclee\Vehicle\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+C:\projeler_ab\Vehiclee\Vehicle\Business\obj\Debug\net6.0\Business.dll
+C:\projeler_ab\Vehiclee\Vehicle\Business\obj\Debug\net6.0\refint\Business.dll
+C:\projeler_ab\Vehiclee\Vehicle\Business\obj\Debug\net6.0\Business.pdb
+C:\projeler_ab\Vehiclee\Vehicle\Business\obj\Debug\net6.0\ref\Business.dll

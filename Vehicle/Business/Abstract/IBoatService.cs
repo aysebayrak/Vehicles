@@ -14,7 +14,7 @@ namespace Business.Abstract
         void Delete(Boat boat); 
         Boat Get(int id);
         List<Boat> GetAll();   
-        List<Boat> GetCarsByColor(string color);
+        List<Boat> GetColor(string color);
 
 
 

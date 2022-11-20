@@ -14,7 +14,7 @@ namespace Business.Abstract
         void Update(Bus bus);
         List<Bus> GetAll();
         Bus GetId(int id);
-        List<Bus> GetCarsByColor(string color);
+        List<Bus> GetColor(string color);
         
 
 
