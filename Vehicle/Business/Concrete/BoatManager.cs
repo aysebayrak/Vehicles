@@ -28,7 +28,7 @@ namespace Business.Concrete
             _boatDal.Delete(boat);
         }
 
-        public Boat Get(int id)
+        public Boat GetId(int id)
         {
             return _boatDal.Get(b => b.Id == id);
         }

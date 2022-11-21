@@ -12,7 +12,7 @@ namespace Business.Abstract
         void Add(Boat boat);
         void Update(Boat boat); 
         void Delete(Boat boat); 
-        Boat Get(int id);
+        Boat GetId(int id);
         List<Boat> GetAll();   
         List<Boat> GetColor(string color);
 
