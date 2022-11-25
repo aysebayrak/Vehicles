@@ -25,6 +25,8 @@ namespace DataAccess.Concrete
         
         protected override void OnModelCreating (ModelBuilder modelBuilder)
         {
+            
+
             modelBuilder.ApplyConfiguration(new CarMap());
             modelBuilder.ApplyConfiguration(new BusMap());
             modelBuilder.ApplyConfiguration(new BoatMap());
